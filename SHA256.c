@@ -1,5 +1,5 @@
 /*!
-* @file sha256_v1.c
+* @file SHA256.c
 * @brief SHA256 Algorithm Implementation (C)
 * @author LDFranck
 * @date January 2023
