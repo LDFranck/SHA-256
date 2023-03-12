@@ -32,7 +32,7 @@
 *  function can only be activated once EOC is set HIGH.
 *
 *  INITIALIZATION SEQUENCE:
-*  		 block0:						 block1:		 read:
+*  	  block0:			 block1:	 read:
 *  clk:  __--__--__--__--__--__--__--_| |__--__--__--_| |__--__--__--__
 *  rst:  _--__________________________| |_____________| |______________
 *  soc:  _____--______________________| |_--__________| |______________
