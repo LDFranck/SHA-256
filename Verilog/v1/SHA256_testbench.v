@@ -17,6 +17,8 @@
 `define NULL 0
 `timescale 1ns / 1ps	//!< <time unit> / <time precision>
 
+`include "SHA256.v"
+
 module SHA256_testbench();
 
 	// DUT:
