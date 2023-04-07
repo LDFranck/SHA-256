@@ -22,7 +22,7 @@ module lsigma0(out, in);
 	wire [31:0] net [2:0];	//!< 3x 32-bits words
 
 	//shr #(3)  u0(net[0], in);
-	net[0] = (in >> 3);
+	assign net[0] = (in >> 3);
 	ror #(7)  u1(net[1], in);
 	ror #(18) u2(net[2], in);
 
