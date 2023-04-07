@@ -14,6 +14,15 @@
 *  at 'k' input as needed. External control logic is necessary.
 */
 
+`include "wvar.v"
+`include "usigma1.v"
+`include "choice.v"
+`include "add5.v"
+`include "add2.v"
+`include "usigma0.v"
+`include "majority.v"
+`include "add3.v"
+
 module compression(hash, msg, k, clk, rst_n, soc, eoc);
 
 	input  clk, rst_n, soc, eoc;
