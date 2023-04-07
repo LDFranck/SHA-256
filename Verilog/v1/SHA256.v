@@ -41,6 +41,11 @@
 *  eoc:  _____________________________| |--___________| |__------------
 */
 
+`include "counter.v"
+`include "constants.v"
+`include "expansion.v"
+`include "compression.v"
+
 module SHA256(data, eoc, clk, rst, soc, rd);
 
 	input  clk, rst, soc, rd;
@@ -84,7 +89,7 @@ module SHA256(data, eoc, clk, rst, soc, rd);
 	reg  [31:0] mux_out;
 	assign abc = {addr[2], addr[1], addr[0]};
 	
-	always @abc begin
+	always @(abc) begin
 		case(abc)
 			0 : mux_out = hash[255:224];
 			1 : mux_out = hash[223:192];
