@@ -11,9 +11,6 @@
 *  to the input signal 'in'.
 */
 
-//`include "shr.v"
-`include "ror.v"
-
 module lsigma0(out, in);
 
 	input  [31:0] in;
@@ -21,8 +18,7 @@ module lsigma0(out, in);
 
 	wire [31:0] net [2:0];	//!< 3x 32-bits words
 
-	//shr #(3)  u0(net[0], in);
-	assign net[0] = (in >> 3);
+	shr #(3)  u0(net[0], in);
 	ror #(7)  u1(net[1], in);
 	ror #(18) u2(net[2], in);
 
