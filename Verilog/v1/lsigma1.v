@@ -11,7 +11,7 @@
 *  to the input signal 'in'.
 */
 
-`include "shr.v"
+//`include "shr.v"
 `include "ror.v"
 
 module lsigma1(out, in);
