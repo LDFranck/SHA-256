@@ -13,10 +13,6 @@
 *  or internal expansion (sel = 1).
 */
 
-`include "lsigma0.v"
-`include "lsigma1.v"
-`include "add4.v"
-
 module expansion(out, in, clk, sel);
 
 	input  clk, sel;
