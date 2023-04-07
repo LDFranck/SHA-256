@@ -12,8 +12,6 @@
 *  compression rounds are done.
 */
 
-`include "add2.v"
-
 module wvar(H_out, X_out, in, H0, clk, rst_n, soc, eoc);
 
 	input  clk, rst_n, soc, eoc;
