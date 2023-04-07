@@ -11,6 +11,8 @@
 *  to the input signal 'in'.
 */
 
+`include "ror.v"
+
 module usigma0(out, in);
 
 	input  [31:0] in;
