@@ -11,6 +11,9 @@
 *  to the input signal 'in'.
 */
 
+`include "srl.v"
+`include "ror.v"
+
 module lsigma0(out, in);
 
 	input  [31:0] in;
