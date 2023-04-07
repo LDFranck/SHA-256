@@ -41,6 +41,21 @@
 *  eoc:  _____________________________| |--___________| |__------------
 */
 
+`include "ror.v"
+`include "shr.v"
+`include "add2.v"
+`include "add3.v"
+`include "add4.v"
+`include "add5.v"
+`include "choice.v"
+`include "majority.v"
+
+`include "usigma0.v"
+`include "usigma1.v"
+`include "lsigma0.v"
+`include "lsigma1.v"
+`include "wvar.v"
+
 `include "counter.v"
 `include "constants.v"
 `include "expansion.v"
