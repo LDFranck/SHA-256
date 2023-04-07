@@ -6,7 +6,7 @@
 * @version v1
 *
 * @details
-*  32-bit Shift Right (SHR) module implementation in Verilog.
+*  32-bit Shift Right Logical (SHR) module implementation in Verilog.
 *  The module shifts 'in' signal by 'N' positions to the right, with 'N'
 *  a parameter that must be override during instantiation.
 */
