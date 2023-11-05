@@ -1,6 +1,6 @@
 # Custom ASIC Design for SHA-256
 
-This work presents a custom ASIC hardware accelerator for the SHA-256 algorithm entirely created using open-source electronic design automation tools. The integrated circuit was synthesized in SkyWater Foundries’ SKY130 130nm process technology through OpenLANE automated RTL to GDSII flow. The proposed final design is compatible with 32-bit microcontrollers, has a total area of 104,585µm², and operates at a maximum clock frequency of 97.89MHz.
+A custom ASIC hardware accelerator for the SHA-256 algorithm entirely created using open-source electronic design automation tools. The IC was synthesized in SkyWater Foundries’ SKY130 130nm process technology through OpenLANE automated RTL to GDSII flow. The final design is compatible with 32-bit microcontrollers, has a total area of 104,585µm², and operates at a maximum clock frequency of 97.89MHz.
 
 <p align="center">
 <img src="https://github.com/LDFranck/SHA-256/blob/main/exploratory/final_run/layout.png?raw=true"/>
