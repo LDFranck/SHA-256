@@ -23,7 +23,8 @@ Grab your favorite Verilog compiler and run the fully automated testbench `SHA25
 \
 **You don't have a Verilog compiler?!?** No problem, I've got you covered! 😎\
 A very practical open-source Verilog compiler available is [Icarus Verilog](https://github.com/steveicarus/iverilog). The best part is that you can easily integrate it with [GTKWave](https://github.com/gtkwave/gtkwave) to visualize waveforms. Follow this [YouTube Tutorial](https://www.youtube.com/watch?v=SzYluleCDEM) to install and set up the environment.\
-**Don't forget to add the commands shown in the video after `initial begin` statement of `SHA256_testbench.v` to make it work with GTKWave!**
+> **:warning: Warning:**\
+> Don't forget to add the commands shown in the video after `initial begin` statement of `SHA256_testbench.v` to make it work with GTKWave!
 
 ## Exploratory Analysis Data
 All data generated and used throughout the exploratory studies is available in the [exploratory](/exploratory) folder. The OpenLANE configuration files and parameter matrices have also been added to facilitate reproducibility.
