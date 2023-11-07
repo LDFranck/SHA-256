@@ -30,7 +30,7 @@ The [OpenLANE](https://github.com/The-OpenROAD-Project/OpenLane) project is a fu
 
 If you decide to run OpenLANE on a remote server, you may want to try the following scripts to make your life easier:
 > :information_source: **Additional Information:**\
-> The installation scripts will create a new user called `openlane` with the password `openlane123` and set up Docker to run the OpenLANE container. You may want to change the account password after finishing for safety measures.
+> The installation scripts will create a new user called `openlane` with the password `openlane123` and set up Docker to run the OpenLANE container. Please change the account password after finishing for your server's safety.
 ```
 ssh root@<server_ip>
 ```
