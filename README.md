@@ -56,4 +56,5 @@ make test
 > **:warning: Warning:**\
 > The OpenLANE project is updated on a weekly basis, and the previous scripts might be outdated. If the provided test case happens to fail, restart your server and follow the installation instructions available on their GitHub.
 
-
+## Exploratory Analysis Data
+All data generated and used throughout the exploratory studies performed in the article is available in the [exploratory](/exploratory) folder. The OpenLANE configuration files and parameter matrix have also been added to facilitate reproducibility.
