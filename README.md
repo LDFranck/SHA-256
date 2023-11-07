@@ -29,6 +29,8 @@ A very practical open-source Verilog compiler available is [Icarus Verilog](http
 The [OpenLANE](https://github.com/The-OpenROAD-Project/OpenLane) project is a fully open-source RTL to GDSII automated ASIC design flow. Their software is relatively easy to install and use, and you can find all the necessary information in the [official documentation](https://openlane.readthedocs.io/en).
 
 If you decide to run OpenLANE on a remote server, you may want to try the following scripts to make your life easier:
+> :information_source: **Additional Information:**\
+> The installation scripts will create a new user called `openlane` with the password `openlane123` and set up Docker to run the OpenLANE container. You may want to change the account password after finishing for safety measures.
 ```
 ssh root@<server_ip>
 ```
