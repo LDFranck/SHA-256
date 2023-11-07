@@ -26,7 +26,7 @@ A very practical open-source Verilog compiler available is [Icarus Verilog](http
 **Don't forget to add the commands shown in the video after `initial begin` statement of `SHA256_testbench.v` to make it work with GTKWave!**
 
 ## Exploratory Analysis Data
-All data generated and used throughout the exploratory studies performed is available in the [exploratory](/exploratory) folder. The OpenLANE configuration files and parameter matrix have also been added to facilitate reproducibility.
+All data generated and used throughout the exploratory studies is available in the [exploratory](/exploratory) folder. The OpenLANE configuration files and parameter matrices have also been added to facilitate reproducibility.
 
 ## OpenLANE
 The [OpenLANE](https://github.com/The-OpenROAD-Project/OpenLane) project is a fully open-source RTL to GDSII automated ASIC design flow. Their software is relatively easy to install and use, and you can find all the necessary information in the [official documentation](https://openlane.readthedocs.io/en).
