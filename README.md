@@ -10,7 +10,7 @@ A custom ASIC hardware accelerator for the SHA-256 algorithm entirely created us
 👀 SOON!
 
 ## Verilog Description & Testbench
-The SHA-256 cryptographic hardware accelerator HDL files are available in the [Verilog](/Verilog) folder. The SHA256.v file is the top-level module that instantiates all subblocks. Take a look!
+The SHA-256 cryptographic hardware accelerator HDL files are available in the [Verilog](/Verilog) folder. The `SHA256.v` file is the top-level module that instantiates all subblocks. Take a look!
 > :information_source: **Additional Information:**\
 > All hardware structures are well described in the publication. Consider checking there for further clarification.
 
