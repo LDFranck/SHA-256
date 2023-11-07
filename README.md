@@ -25,6 +25,9 @@ Grab your favorite Verilog compiler and run the fully automated testbench `SHA25
 A very practical open-source Verilog compiler available is [Icarus Verilog](https://github.com/steveicarus/iverilog). The best part is that you can easily integrate it with [GTKWave](https://github.com/gtkwave/gtkwave) to visualize waveforms. Follow this [YouTube Tutorial](https://www.youtube.com/watch?v=SzYluleCDEM) to install and set up the environment.\
 **Don't forget to add the commands shown in the video after `initial begin` statement of `SHA256_testbench.v` to make it work with GTKWave!**
 
+## Exploratory Analysis Data
+All data generated and used throughout the exploratory studies performed is available in the [exploratory](/exploratory) folder. The OpenLANE configuration files and parameter matrix have also been added to facilitate reproducibility.
+
 ## OpenLANE
 The [OpenLANE](https://github.com/The-OpenROAD-Project/OpenLane) project is a fully open-source RTL to GDSII automated ASIC design flow. Their software is relatively easy to install and use, and you can find all the necessary information in the [official documentation](https://openlane.readthedocs.io/en).
 
@@ -55,6 +58,3 @@ make test
 ```
 > **:warning: Warning:**\
 > The OpenLANE project is updated on a weekly basis, and the previous scripts might be outdated. If the provided test case happens to fail, restart your server and follow the installation instructions available on their GitHub.
-
-## Exploratory Analysis Data
-All data generated and used throughout the exploratory studies performed in the article is available in the [exploratory](/exploratory) folder. The OpenLANE configuration files and parameter matrix have also been added to facilitate reproducibility.
